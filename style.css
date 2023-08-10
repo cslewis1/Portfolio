@@ -20,8 +20,7 @@
     padding: 3.0rem 3.5rem;
     display: flex;   
     align-items: center;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;    
 }
 
 a{
@@ -54,7 +53,6 @@ h1{
     justify-content: space-between;
     align-items: center;
     height: 50vh;
-    /* width: 100%; */
     background-color: #212529;
     color: var(--primary-color);
     font-family: var(--primary-font);
@@ -82,8 +80,7 @@ h1{
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    color: var(--primary-color);
-    
+    color: var(--primary-color);    
 }
 
 #skills img{
@@ -129,6 +126,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: black;
   }
 
   .projects-title {
@@ -153,6 +151,10 @@ h1{
   .project-details {
     margin-bottom: var(--bottom-margin);
   }
+
+  .project-link{
+    font-weight: bolder;
+  }  
   
   .project-card {
     background-color: #fff;
@@ -160,4 +162,5 @@ h1{
     box-shadow: 10px 3px 10px var(--secondary-color);
     padding: 20px;
     margin: 10px;
+    height: 60vh;
   }
